@@ -1,0 +1,38 @@
+<!DOCTYPE HTML >
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title></title>
+  </head>
+  <body>
+  <div id="content">
+
+  	<video id="webcam" autoplay width="640" height="480"></video>
+
+		<video id="video-demo" controls="controls" poster="videos/jsdetection.jpg" width="640" height="480"  onclick="if(/Android/.test(navigator.userAgent))this.play();">
+			<source src="videos/jsdetection.mp4" type="video/mp4" />
+			<source src="videos/jsdetection.ogg" type="video/ogg" />
+			<source src="videos/jsdetection.webm" type="video/webm" />
+			Your browser doesn't support the html 5 video tag.
+		</video>
+
+		<canvas id="canvas-source" width="640" height="480"></canvas>
+		<canvas id="canvas-blended" width="640" height="480"></canvas>
+		<div class="motion-cam">Motion cam</div>
+
+		<div id="xylo">
+			<div id="back"></div>
+			<div id="note0" class="note"></div>
+			<div id="note1" class="note"></div>
+			<div id="note2" class="note"></div>
+			<div id="note3" class="note"></div>
+			<div id="note4" class="note"></div>
+			<div id="note5" class="note"></div>
+			<div id="note6" class="note"></div>
+			<div id="note7" class="note"></div>
+		</div>
+	</div>
+
+  </body>
+</html>
